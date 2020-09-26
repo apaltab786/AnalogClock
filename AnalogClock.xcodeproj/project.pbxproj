@@ -15,6 +15,7 @@
 		D50F57DB250C8741009E4FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50F57D9250C8741009E4FE8 /* LaunchScreen.storyboard */; };
 		D50F57E6250C8741009E4FE8 /* AnalogClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57E5250C8741009E4FE8 /* AnalogClockTests.swift */; };
 		D50F57F1250C8741009E4FE8 /* AnalogClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57F0250C8741009E4FE8 /* AnalogClockUITests.swift */; };
+		D5298A1B251F351D0000C0EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5298A1A251F351D0000C0EE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D50F57EC250C8741009E4FE8 /* AnalogClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50F57F0250C8741009E4FE8 /* AnalogClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockUITests.swift; sourceTree = "<group>"; };
 		D50F57F2250C8741009E4FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5298A1A251F351D0000C0EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		D50F57CD250C873F009E4FE8 /* AnalogClock */ = {
 			isa = PBXGroup;
 			children = (
+				D5298A1C251F35720000C0EE /* View */,
 				D50F57CE250C873F009E4FE8 /* AppDelegate.swift */,
 				D50F57D0250C873F009E4FE8 /* SceneDelegate.swift */,
-				D50F57D2250C873F009E4FE8 /* ContentView.swift */,
 				D50F57D4250C8741009E4FE8 /* Assets.xcassets */,
 				D50F57D9250C8741009E4FE8 /* LaunchScreen.storyboard */,
 				D50F57DC250C8741009E4FE8 /* Info.plist */,
@@ -134,6 +136,15 @@
 				D50F57F2250C8741009E4FE8 /* Info.plist */,
 			);
 			path = AnalogClockUITests;
+			sourceTree = "<group>";
+		};
+		D5298A1C251F35720000C0EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5298A1A251F351D0000C0EE /* HomeView.swift */,
+				D50F57D2250C873F009E4FE8 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50F57CF250C873F009E4FE8 /* AppDelegate.swift in Sources */,
+				D5298A1B251F351D0000C0EE /* HomeView.swift in Sources */,
 				D50F57D1250C873F009E4FE8 /* SceneDelegate.swift in Sources */,
 				D50F57D3250C873F009E4FE8 /* ContentView.swift in Sources */,
 			);

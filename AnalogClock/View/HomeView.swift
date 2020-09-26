@@ -1,35 +1,12 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  AnalogClock
 //
-//  Created by Altab on 12/09/20.
-//  Copyright © 2020 Altab. All rights reserved.
+//  Created by hiecor on 26/09/20.
+//  Copyright © 2020 hiecor. All rights reserved.
 //
 
 import SwiftUI
-
-struct ContentView: View {
-    @State var isDark = false
-    var body: some View {
-        NavigationView{
-        ZStack {
-            HomeView(isDark: $isDark)
-   
-            
-        }.navigationBarTitle("")
-        .navigationBarHidden(true)
-             
-        }
-        .preferredColorScheme(isDark ? .dark : .light)
-       
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
 
 struct HomeView: View {
     @Binding var isDark : Bool
@@ -144,8 +121,8 @@ struct HomeView: View {
     }
 }
 
-struct Time {
-    var min : Int
-    var sec : Int
-    var hour : Int
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView(isDark: .constant(false))
+    }
 }
