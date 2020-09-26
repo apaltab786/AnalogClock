@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50F57CF250C873F009E4FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57CE250C873F009E4FE8 /* AppDelegate.swift */; };
+		D50F57D1250C873F009E4FE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57D0250C873F009E4FE8 /* SceneDelegate.swift */; };
+		D50F57D3250C873F009E4FE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57D2250C873F009E4FE8 /* ContentView.swift */; };
+		D50F57D5250C8741009E4FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50F57D4250C8741009E4FE8 /* Assets.xcassets */; };
+		D50F57D8250C8741009E4FE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50F57D7250C8741009E4FE8 /* Preview Assets.xcassets */; };
+		D50F57DB250C8741009E4FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50F57D9250C8741009E4FE8 /* LaunchScreen.storyboard */; };
+		D50F57E6250C8741009E4FE8 /* AnalogClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57E5250C8741009E4FE8 /* AnalogClockTests.swift */; };
+		D50F57F1250C8741009E4FE8 /* AnalogClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F57F0250C8741009E4FE8 /* AnalogClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50F57E2250C8741009E4FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50F57C3250C873F009E4FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50F57CA250C873F009E4FE8;
+			remoteInfo = AnalogClock;
+		};
+		D50F57ED250C8741009E4FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50F57C3250C873F009E4FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50F57CA250C873F009E4FE8;
+			remoteInfo = AnalogClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50F57CB250C873F009E4FE8 /* AnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F57CE250C873F009E4FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50F57D0250C873F009E4FE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D50F57D2250C873F009E4FE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D50F57D4250C8741009E4FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50F57D7250C8741009E4FE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D50F57DA250C8741009E4FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50F57DC250C8741009E4FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50F57E1250C8741009E4FE8 /* AnalogClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F57E5250C8741009E4FE8 /* AnalogClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockTests.swift; sourceTree = "<group>"; };
+		D50F57E7250C8741009E4FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50F57EC250C8741009E4FE8 /* AnalogClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F57F0250C8741009E4FE8 /* AnalogClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockUITests.swift; sourceTree = "<group>"; };
+		D50F57F2250C8741009E4FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50F57C8250C873F009E4FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57DE250C8741009E4FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57E9250C8741009E4FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50F57C2250C873F009E4FE8 = {
+			isa = PBXGroup;
+			children = (
+				D50F57CD250C873F009E4FE8 /* AnalogClock */,
+				D50F57E4250C8741009E4FE8 /* AnalogClockTests */,
+				D50F57EF250C8741009E4FE8 /* AnalogClockUITests */,
+				D50F57CC250C873F009E4FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50F57CC250C873F009E4FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50F57CB250C873F009E4FE8 /* AnalogClock.app */,
+				D50F57E1250C8741009E4FE8 /* AnalogClockTests.xctest */,
+				D50F57EC250C8741009E4FE8 /* AnalogClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50F57CD250C873F009E4FE8 /* AnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				D50F57CE250C873F009E4FE8 /* AppDelegate.swift */,
+				D50F57D0250C873F009E4FE8 /* SceneDelegate.swift */,
+				D50F57D2250C873F009E4FE8 /* ContentView.swift */,
+				D50F57D4250C8741009E4FE8 /* Assets.xcassets */,
+				D50F57D9250C8741009E4FE8 /* LaunchScreen.storyboard */,
+				D50F57DC250C8741009E4FE8 /* Info.plist */,
+				D50F57D6250C8741009E4FE8 /* Preview Content */,
+			);
+			path = AnalogClock;
+			sourceTree = "<group>";
+		};
+		D50F57D6250C8741009E4FE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D50F57D7250C8741009E4FE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D50F57E4250C8741009E4FE8 /* AnalogClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D50F57E5250C8741009E4FE8 /* AnalogClockTests.swift */,
+				D50F57E7250C8741009E4FE8 /* Info.plist */,
+			);
+			path = AnalogClockTests;
+			sourceTree = "<group>";
+		};
+		D50F57EF250C8741009E4FE8 /* AnalogClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D50F57F0250C8741009E4FE8 /* AnalogClockUITests.swift */,
+				D50F57F2250C8741009E4FE8 /* Info.plist */,
+			);
+			path = AnalogClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50F57CA250C873F009E4FE8 /* AnalogClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50F57F5250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClock" */;
+			buildPhases = (
+				D50F57C7250C873F009E4FE8 /* Sources */,
+				D50F57C8250C873F009E4FE8 /* Frameworks */,
+				D50F57C9250C873F009E4FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalogClock;
+			productName = AnalogClock;
+			productReference = D50F57CB250C873F009E4FE8 /* AnalogClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D50F57E0250C8741009E4FE8 /* AnalogClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50F57F8250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClockTests" */;
+			buildPhases = (
+				D50F57DD250C8741009E4FE8 /* Sources */,
+				D50F57DE250C8741009E4FE8 /* Frameworks */,
+				D50F57DF250C8741009E4FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50F57E3250C8741009E4FE8 /* PBXTargetDependency */,
+			);
+			name = AnalogClockTests;
+			productName = AnalogClockTests;
+			productReference = D50F57E1250C8741009E4FE8 /* AnalogClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D50F57EB250C8741009E4FE8 /* AnalogClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50F57FB250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClockUITests" */;
+			buildPhases = (
+				D50F57E8250C8741009E4FE8 /* Sources */,
+				D50F57E9250C8741009E4FE8 /* Frameworks */,
+				D50F57EA250C8741009E4FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50F57EE250C8741009E4FE8 /* PBXTargetDependency */,
+			);
+			name = AnalogClockUITests;
+			productName = AnalogClockUITests;
+			productReference = D50F57EC250C8741009E4FE8 /* AnalogClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50F57C3250C873F009E4FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hiecor;
+				TargetAttributes = {
+					D50F57CA250C873F009E4FE8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D50F57E0250C8741009E4FE8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D50F57CA250C873F009E4FE8;
+					};
+					D50F57EB250C8741009E4FE8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D50F57CA250C873F009E4FE8;
+					};
+				};
+			};
+			buildConfigurationList = D50F57C6250C873F009E4FE8 /* Build configuration list for PBXProject "AnalogClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50F57C2250C873F009E4FE8;
+			productRefGroup = D50F57CC250C873F009E4FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50F57CA250C873F009E4FE8 /* AnalogClock */,
+				D50F57E0250C8741009E4FE8 /* AnalogClockTests */,
+				D50F57EB250C8741009E4FE8 /* AnalogClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50F57C9250C873F009E4FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F57DB250C8741009E4FE8 /* LaunchScreen.storyboard in Resources */,
+				D50F57D8250C8741009E4FE8 /* Preview Assets.xcassets in Resources */,
+				D50F57D5250C8741009E4FE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57DF250C8741009E4FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57EA250C8741009E4FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50F57C7250C873F009E4FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F57CF250C873F009E4FE8 /* AppDelegate.swift in Sources */,
+				D50F57D1250C873F009E4FE8 /* SceneDelegate.swift in Sources */,
+				D50F57D3250C873F009E4FE8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57DD250C8741009E4FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F57E6250C8741009E4FE8 /* AnalogClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F57E8250C8741009E4FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F57F1250C8741009E4FE8 /* AnalogClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50F57E3250C8741009E4FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50F57CA250C873F009E4FE8 /* AnalogClock */;
+			targetProxy = D50F57E2250C8741009E4FE8 /* PBXContainerItemProxy */;
+		};
+		D50F57EE250C8741009E4FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50F57CA250C873F009E4FE8 /* AnalogClock */;
+			targetProxy = D50F57ED250C8741009E4FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50F57D9250C8741009E4FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50F57DA250C8741009E4FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50F57F3250C8741009E4FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D50F57F4250C8741009E4FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50F57F6250C8741009E4FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50F57F7250C8741009E4FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D50F57F9250C8741009E4FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogClock.app/AnalogClock";
+			};
+			name = Debug;
+		};
+		D50F57FA250C8741009E4FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogClock.app/AnalogClock";
+			};
+			name = Release;
+		};
+		D50F57FC250C8741009E4FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogClock;
+			};
+			name = Debug;
+		};
+		D50F57FD250C8741009E4FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnalogClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demotask.AnalogClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50F57C6250C873F009E4FE8 /* Build configuration list for PBXProject "AnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F57F3250C8741009E4FE8 /* Debug */,
+				D50F57F4250C8741009E4FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50F57F5250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F57F6250C8741009E4FE8 /* Debug */,
+				D50F57F7250C8741009E4FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50F57F8250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F57F9250C8741009E4FE8 /* Debug */,
+				D50F57FA250C8741009E4FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50F57FB250C8741009E4FE8 /* Build configuration list for PBXNativeTarget "AnalogClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F57FC250C8741009E4FE8 /* Debug */,
+				D50F57FD250C8741009E4FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50F57C3250C873F009E4FE8 /* Project object */;
+}
